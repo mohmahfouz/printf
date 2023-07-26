@@ -2,8 +2,8 @@
 
 /**
 * print_String - print string
-* @val: arg
 * Return: length
+* @l: l
 */
 
 int print_String(va_list l)
@@ -37,7 +37,7 @@ return (len);
 * Return: true or false
 */
 
-int isNonAlphaNumeric(char c) 
+int isNonAlphaNumeric(char c)
 {
 return ((c > 0 && c < 32) || c >= 127);
 }

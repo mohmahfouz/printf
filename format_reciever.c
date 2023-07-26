@@ -32,7 +32,10 @@ if (f_list[j].sym == NULL && format[i + 1] != ' ')
 {
 if (format[i + 1] != '\0')
 {
-_putchar(format[i]); _putchar(format[i + 1]); printed_chars = printed_chars + 2; }
+_putchar(format[i]);
+_putchar(format[i + 1]);
+printed_chars = printed_chars + 2;
+}
 else
 return (-1);
 }

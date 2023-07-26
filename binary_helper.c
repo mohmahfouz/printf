@@ -68,7 +68,7 @@ _putchar(str[i]);
 * _memcpy - copy
 * @dest: Destination
 * @src: Source
-* @n: number 
+* @n: number
 * Return: pointer
 */
 

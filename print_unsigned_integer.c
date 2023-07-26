@@ -24,7 +24,7 @@ return (print_unsgined_number(num));
 /**
 * print_unsgined_number - prints unsigned num
 * @n: unsigned int
-* Return: amount 
+* Return: amount
 */
 
 int print_unsgined_number(unsigned int n)

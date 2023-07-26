@@ -11,15 +11,15 @@
 #define NUL '\0'
 
 /**
- * struct convert - defines  struct
- * @sym: operator
- * @f: function
- */
+* struct convert - defines  struct
+* @sym: operator
+* @f: function
+*/
 
 struct convert
 {
-	char *sym;
-	int (*f)(va_list);
+char *sym;
+int (*f)(va_list);
 };
 typedef struct convert conver_t;
 
@@ -49,7 +49,7 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 int print_unsgined_number(unsigned int n);
 int hex_check(int num, char x);
 int print_hex_aux(unsigned long int num);
-int isNonAlphaNumeric(char c); 
+int isNonAlphaNumeric(char c);
 int _puts(char *str);
 char *convert(unsigned long int num, int base, int lowercase);
 #endif
